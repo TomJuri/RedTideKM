@@ -8,7 +8,7 @@
 #include <linux/mm.h>
 #include <linux/capability.h>
 
-#define DEVICE_NAME "blacktide"
+#define DEVICE_NAME "redtide"
 #define CLASS_NAME "memclass"
 #define MEM_READ  _IOWR('k', 1, struct mem_ioctl_data)
 #define MEM_WRITE _IOWR('k', 2, struct mem_ioctl_data)

@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
-sudo rmmod blacktidekm
-sudo rm -f /dev/blacktide
+sudo rmmod redtidekm
+sudo rm -f /dev/redtide
 echo "Module unloaded and device node removed."

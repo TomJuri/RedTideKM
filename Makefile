@@ -1,4 +1,4 @@
-obj-m += blacktidekm.o
+obj-m += redtidekm.o
 OUT_DIR := $(PWD)/out
 KERNEL_DIR := $(shell nix-build -E '(import <nixpkgs> {}).linux.dev' --no-out-link)
 
